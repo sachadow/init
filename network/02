@@ -1,0 +1,3 @@
+a) ifconfig en0 | grep "inet " | rev | cut -d " " -f 1 | rev
+
+b) arp -a | cut -d ' ' -f 2 
