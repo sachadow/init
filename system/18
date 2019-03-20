@@ -1,1 +1,1 @@
-sudo service sshd stop
+sudo /etc/init.d/ssh stop

@@ -1,2 +1,17 @@
 Ces services sont des daemons. Ils sont dans /etc/init.d/ ; pour les lister :
 ls /etc/init.d/
+
+console-setup.sh
+cron
+dbus
+hwclock.sh
+irqbalance
+keyboard-setup.sh
+kmod
+networking
+procps
+rsync
+rsyslog
+ssh
+sudo
+udev
