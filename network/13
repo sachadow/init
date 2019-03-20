@@ -1,0 +1,4 @@
+e1r13p7.42.fr.
+
+La commande pour trouver ceci est :
+nslookup `sh 12` | tail -n 2 | head -n 1 | rev | cut -f 1 -d ' ' | rev
