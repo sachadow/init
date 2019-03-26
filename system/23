@@ -1,0 +1,4 @@
+su - <username> pour en faire en ssh.
+
+Il faut passer par l'UI systeme pour changer en graphique : log out puis se reconnecter avec l'user voulu.
+Pas possible de le faire avec vagrant vu que la VM est uniquement sur le terminal afaik.
