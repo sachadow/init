@@ -1,0 +1,5 @@
+#!bin/bash
+
+read -p "Input username : " username
+pgrep -u $username | xargs pkill
+sudo userdel -f $username
