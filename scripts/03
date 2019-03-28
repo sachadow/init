@@ -1,3 +1,10 @@
 #!bin/bash
 
+olddate=$(cat ~/.crontabupdate)
+newdate=$(date -r /etc/crontab '+%d/%m/%Y %H:%M')
 
+if [ "$newdate" != "$olddate" ]; then
+	echo "Le fichier crontab a ete modifie.\nDate de modification precedente : $olddate\nNouvelle date : $newdate"
+fi
+
+echo "$newdate" > ~/.crontabupdate
